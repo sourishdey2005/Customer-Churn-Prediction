@@ -55,18 +55,6 @@ Each model was evaluated using:
 
 ---
 
-## 📈 Results Summary
-
-| Model               | Accuracy | Recall | ROC-AUC |
-|--------------------|----------|--------|---------|
-| Logistic Regression| 0.81     | 0.70   | 0.85    |
-| Random Forest       | 0.80     | 0.66   | 0.84    |
-| XGBoost             | 0.82     | 0.72   | 0.87    |
-
-*Note: These numbers are illustrative and may vary slightly.*
-
----
-
 ## 📊 Visualizations
 
 - Count plot of churn distribution
@@ -96,5 +84,8 @@ Each model was evaluated using:
 ```bash
 pip install pandas numpy matplotlib seaborn scikit-learn xgboost
 
-Launch Jupyter Notebook:
+
+---
+## 🧠 How to Run Jupyter Notebook:
+```bash
 jupyter notebook
